@@ -13,7 +13,8 @@ int lisbs(int arr[],int size){
         }
         else {
             int index=lower_bound(temp.begin(),temp.end(),arr[i])-temp.begin();
-            
+            //auto it=index=lower_bound(temp.begin(),temp.end(),arr[i]);
+            //*it=arr[i];
             temp[index]=arr[i];
         }
     }
